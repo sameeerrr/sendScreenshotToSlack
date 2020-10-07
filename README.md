@@ -16,16 +16,16 @@ The URL from imgur is extracted from its response and the Slack incoming webhook
 2. Open the testng.xml file and right click on it and select on 'Run testng.xml'
 
 
-##### NOTE: 
+#### NOTE: 
 1. Get the imgur authorization key by signing up on imgur website and add the key in `config.properties` file corresponding to key `authorization`
 2. Go to your Slack app website and create an incoming webhook and add the url of the incoming webhook in `config.properties` file corresponding to key `slackBaseUri`
 
 
-##### Sample Screenshot of the Message sent to Slack using this program:
+#### Sample Screenshot of the Message sent to Slack using this program:
 ![alt text](https://imgur.com/v1m7nkA.png)
 
 
-##### Sample JSON Payload Body for Slack incoming webhook:
+#### Sample JSON Payload Body for Slack incoming webhook:
 ``````
 {      
 	"channel": "slackintegration",      
